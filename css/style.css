@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&family=Nunito:wght@400;900&family=Open+Sans:wght@400;600&family=Pixelify+Sans:wght@400;700&family=Russo+One&display=swap');
+
 .hidden {
   display: none;
 }
@@ -11,4 +13,65 @@ img {
   bottom: 0px;
   z-index: -1;
   opacity: 80%;
+}
+
+body {
+  font-family: Pixelify Sans, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  background-color: lightgray;
+  border-radius: 15px;
+  padding: 7px;
+}
+
+#clock {
+  font-size: 130px;
+  color: white;
+  margin: 130px;
+}
+
+#login-form {
+  margin-bottom: 30px;
+}
+
+#greeting {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 100px;
+}
+
+#todo-form {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  margin-bottom: 20px;
+}
+#todo-list {
+  position: fixed;
+  top: 60px;
+  left: 30px;
+  color: white;
+}
+
+#quote {
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#quote span:first-child {
+  font-size: 20px;
+}
+#quote span:last-child {
+  font-size: 15px;
+}
+#weather {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  color: white;
 }

@@ -33,6 +33,8 @@ function paintToDo(newTodo) {
   button.addEventListener('click', deleteToDo);
   li.appendChild(span);
   li.appendChild(button);
+  span.style.marginRight = '30px';
+  li.style.marginBottom = '5px';
   //ul에 li넣기
   toDoList.appendChild(li);
 }
